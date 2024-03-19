@@ -1,0 +1,103 @@
+/* Body Styles */
+body {
+    font-family: sans-serif;  /* Set a default font family */
+    margin: 0;                 /* Remove default margin from body */
+    padding: 0;                /* Remove default padding from body */
+    background-color: #f0f0f0;  /* Light background for content area */
+  }
+  
+  .ad-logo {
+    text-align: center;  /* Center the ad logo horizontally */
+    margin-bottom: 20px; /* Add space below the ad */
+  }
+  
+  .ad-logo a {
+    display: inline-block; /* Display the ad link as a block element */
+    text-decoration: none; /* Remove default link underline */
+  }
+  
+  .ad-logo img {
+    width: 100px;  /* Set a default width for the ad image */
+    height: auto;  /* Maintain image aspect ratio */
+    align-items: flex-end;
+  }
+  
+  
+  /* Header Styles */
+  header {
+    background-color: #001f3f;  /* Navy blue background for header */
+    color: #fff;               /* White text for header */
+    padding: 20px 0;            /* Add some padding for header content */
+    text-align: center;        /* Center the header content */
+  }
+  
+  h1 {
+    margin-bottom: 0;          /* Remove margin below heading */
+    font-size: 2em;             /* Increase heading size slightly */
+  }
+  
+  .nav {
+    list-style: none;          /* Remove default bullet points */
+    padding: 0;                /* Remove default padding */
+    margin: 0;                 /* Remove default margin */
+    display: flex;             /* Arrange navigation items horizontally */
+    justify-content: space-around; /* Distribute items evenly in header */
+    align-items: left;
+  }
+  
+  .nav li {
+    display: inline-block;  /* Display navigation items inline */
+    margin: 0 10px;           /* Add space between navigation items */
+    text-align: left;
+  }
+  
+  .nav a {
+    color: inherit;           /* Inherit text color from header */
+    text-decoration: none;    /* Remove default link underline */
+    font-weight: bold;        /* Make navigation links bold */
+    transition: color 0.2s ease-in-out; /* Smooth color transition on hover */
+  }
+  
+  .nav a:hover {
+    color: #007bff;          /* Change link color on hover (lighter blue) */
+  }
+  
+  /* Main Section Styles */
+  main {
+    max-width: 800px;
+    padding: 20px;           /* Add some padding for content area */
+  }
+  
+  section {
+    margin-bottom: 20px;    /* Add space between sections */
+  }
+  
+  h2 {
+    margin-bottom: 10px;     /* Add space below section titles */
+    font-size: 1.5em;         /* Increase section title size slightly */
+  }
+  
+  /* Specific Section Styles */
+  #projects ol,
+  #skills ul {
+    padding-left: 20px;       /* Add indentation for lists */
+  }
+  
+  #contact ul {
+    list-style: none;          /* Remove default bullet points from contact list */
+    padding: 0;                /* Remove default padding from contact list */
+    margin: 0;                 /* Remove default margin from contact list */
+  }
+  
+  #contact li {
+    margin-bottom: 5px;       /* Add space between contact details */
+  }
+  
+  /* Footer Styles */
+  footer.foot {
+    background-color: #001f3f;  /* Navy blue background for footer */
+    color: #fff;               /* White text for footer */
+    text-align: center;        /* Center the footer content */
+    padding: 10px 0;            /* Add some padding for footer content */
+  }
+  
