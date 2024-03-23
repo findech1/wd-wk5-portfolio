@@ -92,6 +92,14 @@ body {
   #contact li {
     margin-bottom: 5px;       /* Add space between contact details */
   }
+  #contact-form  {
+    display: flex;             /* Arrange contact form items horizontally */
+    flex-direction: column;   /* Arrange contact form items vertically */
+    justify-content: space-around; /* Distribute items evenly in contact form */
+    align-items: left;
+    width: 30%;
+    
+  }
   
   /* Footer Styles */
   footer.foot {
@@ -101,3 +109,7 @@ body {
     padding: 10px 0;            /* Add some padding for footer content */
   }
   
+  /* Media Queries for Responsive Design */
+@media screen and (min-width: 768px) {
+  
+}
